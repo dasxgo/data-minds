@@ -1,5 +1,5 @@
 # EDA
-exploratory data analysis
+Exploratory data analysis
 
 - jupyter notebook 
 - pandas 
