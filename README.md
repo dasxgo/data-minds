@@ -1,6 +1,4 @@
 # eda
-Data Analysis proyects
+Exploratory data analysis
 
-- EDA
-- Machine learning
-- Visualization
+
