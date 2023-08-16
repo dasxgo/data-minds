@@ -1,4 +1,6 @@
 # eda
-Exploratory data analysis
+exploratory data analysis
+
+- notebooks 
 
 
