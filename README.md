@@ -1,4 +1,4 @@
-# eda
+# EDA
 exploratory data analysis
 
 - jupyter notebook 
