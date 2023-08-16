@@ -1,6 +1,8 @@
 # EDA
 Exploratory Data Analysis
 
+## Contents
+
 - jupyter notebook 
 - pandas 
 - numpy
