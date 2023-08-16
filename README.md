@@ -1,4 +1,6 @@
 # eda
 Data Analysis proyects
 
-- Notebooks
+- EDA
+- Machine learning
+- Visualization
