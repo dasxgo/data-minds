@@ -1,6 +1,6 @@
 # eda
 exploratory data analysis
 
-- notebooks 
+- jupyter notebook 
 
 
