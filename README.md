@@ -12,6 +12,17 @@ Exploratory Data Analysis
 - numpy
 - matplotlib
 - seaborn 
-- scikit learn 
+- scikit learn
+
+## **Features** 
+
+EDA and machine learning
+
+## **Install**
+Clone this repository: git clone git@github.com:dasxgo/data-colab.git
+Install library: npm install
+
+# **License**
+MIT License
 
 
