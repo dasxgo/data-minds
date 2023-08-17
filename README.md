@@ -23,6 +23,6 @@ Clone this repository: git clone git@github.com:dasxgo/eda-jupyter.git
 Install library: npm install
 
 # **License**
-MIT License
+MIT
 
 
