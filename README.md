@@ -14,7 +14,7 @@ Exploratory Data Analysis
 - seaborn 
 - scikit learn
 
-## **Features** 
+## **Features**
 
 EDA and machine learning
 
