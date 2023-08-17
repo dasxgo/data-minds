@@ -20,7 +20,7 @@ EDA and machine learning
 
 ## **Install**
 Clone this repository: git clone git@github.com:dasxgo/eda-jupyter.git
-Install library: npm install
+Install library: requirements.txt
 
 # **License**
 MIT
