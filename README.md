@@ -1,4 +1,4 @@
-# **EDA**
+# **Jupiter Data**
 Exploratory Data Analysis
 
 ## **Contents**
@@ -20,7 +20,7 @@ EDA and machine learning
 
 ## **Install**
 
-- Clone this repository: git clone git@github.com:dasxgo/eda-jupyter.git
+- Clone this repository: git clone git@github.com:dasxgo/jupyter-data.git
 - Install library: requirements.txt
 
 # **License**
