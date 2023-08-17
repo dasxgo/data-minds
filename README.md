@@ -5,7 +5,7 @@ Exploratory Data Analysis
 
 - Hotel business 
 
-## **Tools & Library**
+## **Tools**
 
 - jupyter notebook 
 - pandas 
