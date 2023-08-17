@@ -1,7 +1,11 @@
-# EDA
+# **EDA**
 Exploratory Data Analysis
 
-## Contents
+## **Contents**
+
+- Hotel business 
+
+## **Toools & Library**
 
 - jupyter notebook 
 - pandas 
