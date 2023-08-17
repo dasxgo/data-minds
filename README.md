@@ -1,5 +1,5 @@
 # **Jupiter Data**
-Exploratory Data Analysis
+Exploratory Data Analysis notebooks
 
 ## **Contents**
 
