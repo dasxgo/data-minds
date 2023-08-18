@@ -20,8 +20,8 @@ EDA and machine learning
 
 ## **Install**
 
-- Clone this repository: git clone git@github.com:dasxgo/jupyter-data.git
-- Install library: requirements.txt
+- clone this repository: git clone git@github.com:dasxgo/jupyter-data.git
+- pip install -r requirements.txt
 
 # **License**
 MIT
