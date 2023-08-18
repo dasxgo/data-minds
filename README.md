@@ -1,5 +1,5 @@
-# **EDA**
-Exploratory Data Analysis
+# **Jupiter Data**
+Exploratory Data Analysis notebooks
 
 ## **Contents**
 
@@ -14,14 +14,14 @@ Exploratory Data Analysis
 - seaborn 
 - scikit learn
 
-## **Features** 
+## **Features**
 
 EDA and machine learning
 
 ## **Install**
 
-- Clone this repository: git clone git@github.com:dasxgo/eda-jupyter.git
-- Install library: requirements.txt
+- clone this repository: git clone git@github.com:dasxgo/jupyter-data.git
+- pip install -r requirements.txt
 
 # **License**
 MIT
