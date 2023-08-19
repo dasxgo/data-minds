@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from utils import df_results, df_stats
 
+
 dfy = (df_results[['home_goals', 'away_goals']])
 print(dfy)
 
