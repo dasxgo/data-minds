@@ -5,7 +5,7 @@ import main
 from utils import df_results, df_stats
 from main import dfy
 
-main.main()
+main.run()
 
 print('='*120)
 print('='*120)
