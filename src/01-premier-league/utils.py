@@ -1,8 +1,7 @@
 import pandas as pd
 
-
 df_results = pd.read_csv('/home/dasxgo/dev/jupyter/data/results.csv', sep=',', header=0)  
-print(df_results) 
+print(df_results)
     
 print('='*120)
     
