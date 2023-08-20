@@ -2,6 +2,6 @@ import pandas as pd
 import numpy as np 
 import sys
 sys.path.append("/home/dasxgo/dev/jupyter/src")
-from premier import utils
+from premier import csv
 
-utils.df_stats
+csv.df_stats
