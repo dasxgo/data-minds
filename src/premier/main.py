@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from read_csv import df_results, df_stats
 
-def run():
+def main():
     dfy = (df_results[['home_goals', 'away_goals']])
     print(dfy)
 
@@ -16,7 +16,7 @@ def run():
     print(df_results.dtypes)
 
 if __name__ == '__main__':
-    run()
+    main()
 
 
   

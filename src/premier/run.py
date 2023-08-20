@@ -6,7 +6,7 @@ import read_csv
 
 # Call everything contained in the main file as run function
 
-main.run()
+main.main()
 
 print('='*120)
 print('='*120)
