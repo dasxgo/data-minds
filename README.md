@@ -1,4 +1,4 @@
-# **Jupiter Data**
+# **data-insights**
  Exploratory data analysis and machine learning proyects 
 
 ## **Contents**
