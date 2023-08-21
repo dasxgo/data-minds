@@ -1,5 +1,5 @@
 # **Jupiter Data**
-Exploratory Data Analysis notebooks
+ Exploratory data analysis and machine learning proyects 
 
 ## **Contents**
 
@@ -21,7 +21,7 @@ EDA and machine learning
 
 ## **Install**
 
-- clone this repository: git clone git@github.com:dasxgo/jupyter-data.git
+- clone this repository: git clone git@github.com:dasxgo/data-insightts.git
 - pip install -r requirements.txt
 
 # **License**
