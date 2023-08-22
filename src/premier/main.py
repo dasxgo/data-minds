@@ -1,8 +1,10 @@
 import pandas as pd
 import numpy as np
+import utils 
 from read_csv import df_results, df_stats
 
 def main():
+
     dfy = (df_results[['home_goals', 'away_goals']])
     print(dfy)
 
