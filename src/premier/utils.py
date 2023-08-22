@@ -14,12 +14,14 @@ season_2017_2018 = season.loc['2017-2018']
 season_goals = df_results.groupby('season').sum(['home_goals', 'away_goals'])
 
 if __name__ == '__main__':
+    print('Team: Manchester United')
+    print('='*160)
     print(season)
-    print('-'*120)
+    print('-'*160)
     print(season_goals)
-    print('-'*120)
+    print('-'*160)
     print(f' minimun goals season Manchester United => ', season['goals'].min())
-    print('-'*120)
+    print('-'*160)
     print(season_2017_2018)
-    print('-'*120)
+    print('-'*160)
    
