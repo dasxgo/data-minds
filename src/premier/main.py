@@ -35,7 +35,12 @@ def main():
     
     pop_column2 = df.pop('total_matches')
     df.insert(4, 'total_matches', pop_column2)
-    df.head()
+    print(df.head())
+
+    print('-'*120)
+
+    mu_season = utils.season_2017_2018
+    print(mu_season)
 
 if __name__ == '__main__':
     main()
