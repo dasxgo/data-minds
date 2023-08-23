@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 
-df_results = pd.read_csv('/home/dasxgo/dev/data-insights/data/results.csv', sep=',', header=0)  
-df_stats = pd.read_csv('/home/dasxgo/dev/data-insights/data/stats.csv', sep=',', header=0)
+df_results = pd.read_csv('/home/dasxgo/dev/data-minds/data/results.csv', sep=',', header=0)  
+df_stats = pd.read_csv('/home/dasxgo/dev/data-minds/data/stats.csv', sep=',', header=0)
 
 
 if __name__ == '__main__':
