@@ -18,10 +18,11 @@ if __name__ == '__main__':
     print(df_results.dtypes)
     print('-'*120)
     print(df_results.isnull().sum())
-    
+    print('-'*120)
+    print(df_results[['home_goals', 'away_goals']])
+       
     print('='*120)
 
-    
     # stats data
     print(df_stats.head())
     print('-'*120)
@@ -34,13 +35,12 @@ if __name__ == '__main__':
     print(df_stats.dtypes)
     print('-'*120)
     print(df_stats.isnull().sum())
-    
-    print('='*120)
-
-    # Other data
-    print(df_results[['home_goals', 'away_goals']])
-    print('='*120)
+    print('-'*120)  
     print(df_stats[0:7])
+    
+    
+
+    
 
 
 
