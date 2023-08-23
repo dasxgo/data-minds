@@ -1,4 +1,4 @@
-# **data-insights**
+# **data-minds**
  Exploratory data analysis and machine learning proyects 
 
 ## **Contents**
