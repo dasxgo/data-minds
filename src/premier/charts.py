@@ -33,8 +33,7 @@ if __name__ == '__main__':
     data_goals_home = utils.season_goals
     data_mudf = utils.mudf
     data_goals = load.df_stats
-    data_top_wins = utils.df2
-    
+        
     plot_goals_home(data_goals_home)
     plot_mudf(data_mudf)
     plot_goals(data_goals)
