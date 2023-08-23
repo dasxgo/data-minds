@@ -1,15 +1,16 @@
 import pandas as pd
 import numpy as np
-import utils 
 import load
+import utils
 
 df = load.df_stats
+mudf = utils.mudf
 
 def main():
     print(df.head())
     print('-'*120)
     print(df.shape)
-    print('-'*120)
+    print('-'*120)s
     print(df[0:7])
     print('-'*120)
     print(df.describe())
@@ -35,10 +36,6 @@ def main():
     print(df.head())
 
     print('-'*120)
-
-    # Manchester United Season
-    mu_season = utils.season_2017_2018
-    print(mu_season)
 
 if __name__ == '__main__':
     main()
