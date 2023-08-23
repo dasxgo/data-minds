@@ -11,7 +11,31 @@ def main():
     print(df.shape)
     print('-'*120)
     print(df[0:7])
+    print('-'*120)
+    print(df.describe())
+
     print('='*120)
+
+    # Finding the teams with total wins, losses and draws per total matches
+
+    # Creating a new column draws
+    
+    df['draws'] = 38 - df['wins'] - df['losses']
+    
+    # Changing the column location
+    
+    pop_column = df.pop('draws')
+    df.insert(3, 'draws', pop_column)
+
+    # Creating a new column total_matches
+    
+    df['total_matches'] = df['wins'] + df['losses'] + df['draws']
+    
+    # Changing the column location
+    
+    pop_column2 = df.pop('total_matches')
+    df.insert(4, 'total_matches', pop_column2)
+    df.head()
 
 if __name__ == '__main__':
     main()
