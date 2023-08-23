@@ -10,7 +10,7 @@ def main():
     print(df.head())
     print('-'*120)
     print(df.shape)
-    print('-'*120)s
+    print('-'*120)
     print(df[0:7])
     print('-'*120)
     print(df.describe())
