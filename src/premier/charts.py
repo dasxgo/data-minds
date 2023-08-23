@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import utils
-import read_csv
+import load
 
 def plot_goals_home(data):
     plt.xticks(rotation=90)
@@ -32,7 +32,7 @@ def plot_goals(data):
 if __name__ == '__main__':
     data_goals_home = utils.season_goals
     data_mudf = utils.mudf
-    data_goals = read_csv.df_stats
+    data_goals = load.df_stats
     
     plot_goals_home(data_goals_home)
     plot_mudf(data_mudf)

@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from read_csv import df_results, df_stats
+from load import df_results, df_stats
 
 # Manchester United
 
