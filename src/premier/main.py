@@ -3,10 +3,12 @@ import numpy as np
 import load
 import utils
 
-df = load.df_stats
-mudf = utils.mudf
 
 def main():
+
+    df = load.df_stats
+    mudf = utils.mudf
+
     print(df.head())
     print('-'*120)
     print(df.shape)
