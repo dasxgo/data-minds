@@ -53,6 +53,7 @@ if __name__ == '__main__':
     print('-'*160)
     print(tm) 
     print('-'*160)
+    print(df_wld.head(10))
     
     
    
