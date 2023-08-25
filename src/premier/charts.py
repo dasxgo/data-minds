@@ -48,44 +48,6 @@ def plot_red_card(data):
     sns.heatmap(data,cmap="Reds")
     plt.show()
 
-# Plotting the top 10 teams with most wins
-
-data1 = main.df_wld
-
-teams = data1.index[:10]
-wins = data1.wins[:10]
-matches = data1.total_matches[:10]
-plt.figure(figsize=(8, 4))
-plt.style.use('ggplot')
-# using x_index so that the bars can be placed side by side
-x_index = np.arange(len(teams))
-plt.bar(x_index - 0.25, wins, width = 0.5, label = 'Total Wins')
-plt.bar(teams, matches, width = 0.35, label = 'Total Matches')
-plt.ylabel('Total Wins per total matches', size = 10)
-plt.xlabel('Teams', size = 10)
-plt.xticks(rotation = 'vertical', size = 12)
-plt.legend(loc = 4, prop = {'size': 10})
-plt.show()
-
-# Plotting the top 10 teams with most losses
-
-data2 = main.df_lost
-
-lost_teams = data2.index[:10]
-losses = data1.losses[:10]
-total_matches = data1.total_matches[:10]
-plt.figure(figsize=(8, 4))
-plt.style.use('ggplot')
-x_index2 = np.arange(len(lost_teams))
-plt.bar(x_index2 - 0.25, losses, width = 0.5, label = 'Total losses')
-plt.bar(lost_teams, total_matches, width = 0.35, label = 'Total Matches')
-plt.ylabel('Total losses per total matches', size = 14, color = 'black')
-plt.xlabel('Teams', size = 15, color = 'black')
-plt.xticks(rotation = 'vertical', size = 12, color = 'black')
-plt.yticks(color = 'black')
-plt.legend(loc = 4, prop = {'size': 10})
-plt.show()
-    
 if __name__ == '__main__':
     data_goals_home = utils.season_goals
     data_mudf = utils.mudf
@@ -103,7 +65,43 @@ if __name__ == '__main__':
     plot_yellow_card(data_yellow_card)
     plot_red_card(data_red_card)
 
+    # Plotting the top 10 teams with most wins
+    data1 = main.df_wld
+    teams = data1.index[:10]
+    wins = data1.wins[:10]
+    matches = data1.total_matches[:10]
+    plt.figure(figsize=(8, 4))
+    plt.style.use('ggplot')
+    # using x_index so that the bars can be placed side by side
+    x_index = np.arange(len(teams))
+    plt.bar(x_index - 0.25, wins, width = 0.5, label = 'Total Wins')
+    plt.bar(teams, matches, width = 0.35, label = 'Total Matches')
+    plt.ylabel('Total Wins per total matches', size = 10)
+    plt.xlabel('Teams', size = 10)
+    plt.xticks(rotation = 'vertical', size = 12)
+    plt.legend(loc = 4, prop = {'size': 10})
+    plt.show()
 
- 
+    # Plotting the top 10 teams with most losses
+    data2 = main.df_lost
+    lost_teams = data2.index[:10]
+    losses = data1.losses[:10]
+    total_matches = data1.total_matches[:10]
+    plt.figure(figsize=(8, 4))
+    plt.style.use('ggplot')
+    x_index2 = np.arange(len(lost_teams))
+    plt.bar(x_index2 - 0.25, losses, width = 0.5, label = 'Total losses')
+    plt.bar(lost_teams, total_matches, width = 0.35, label = 'Total Matches')
+    plt.ylabel('Total losses per total matches', size = 14, color = 'black')
+    plt.xlabel('Teams', size = 15, color = 'black')
+    plt.xticks(rotation = 'vertical', size = 12, color = 'black')
+    plt.yticks(color = 'black')
+    plt.legend(loc = 4, prop = {'size': 10})
+    plt.show()
+        
+
+
 
     
+
+        
