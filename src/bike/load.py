@@ -25,3 +25,9 @@ if __name__ == '__main__':
 
     # Missing value
     print(df.isnull().sum())
+
+    # Save the DataFrame to a CSV file
+
+    route = '/home/dasxgo/dev/data-minds/reports/01-bike.csv'
+    df.to_csv(route, index=False)  
+    print(f'DataFrame save in {route}')
