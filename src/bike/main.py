@@ -45,12 +45,25 @@ def main():
 
     grouped_season_avg = ((df.groupby(['season'])['count'].mean())*24).reset_index()
     print(grouped_season_avg)
+    print('-'*120)
 
     # The number of bikes shares when the weather is hottest
 
-    hottest = df[df['c_temp']== df['c_temp'].max()]
+    hottest = df[df['c_temp'] == df['c_temp'].max()]
     print(hottest)
+    print('-'*120)
 
+    # The number of bike shares when weather is coldest
+
+    coldest = df[df['c_temp'] == df['c_temp'].min()]
+    print(coldest)
+    print('-'*120)
+
+    # The number of bike shares when the wind speed is highest
+
+    highest = df[df['wind_speed'] == df['wind_speed'].max()]
+    print(highest)
+    print('-'*120)
 
 if __name__ == '__main__':
     main()
