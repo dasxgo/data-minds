@@ -46,6 +46,12 @@ def main():
     grouped_season_avg = ((df.groupby(['season'])['count'].mean())*24).reset_index()
     print(grouped_season_avg)
 
+    # The number of bikes shares when the weather is hottest
+
+    hottest = df[df['c_temp']== df['c_temp'].max()]
+    print(hottest)
+
+
 if __name__ == '__main__':
     main()
 
