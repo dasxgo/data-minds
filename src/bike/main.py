@@ -63,6 +63,35 @@ def main():
     print(highest)
     print('-'*120)
 
+    # Season
+
+    spring = df[df['season']==0]
+    autumn = df[df['season']==2]
+    winter = df[df['season']==3]
+    summer = df[df['season']==1]
+
+    # Lowest number of bikes shares in winter
+
+    print(winter[winter['count']==winter['count'].min()])
+    print('-'*120)
+
+    # Highest number of bike share in autumn or fall
+
+    print(autumn[autumn['count']==autumn['count'].max()])
+    print('-'*120)
+
+    # How is the bike rental demand distributed over weeks 
+
+    ride_count_year = df.groupby(['year'])['count'].sum().reset_index(name='ride count')
+    print(ride_count_year)
+    print('-'*120)
+
+    # How is the bike rental demand distributed over weeks
+
+    weekly_ride_count = df.groupby(['week'])['count'].sum().reset_index(name='ride count')
+    print(weekly_ride_count.head(13)) 
+    print('-'*120)
+
 if __name__ == '__main__':
     main()
 
