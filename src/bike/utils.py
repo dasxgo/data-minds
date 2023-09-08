@@ -13,5 +13,12 @@ def categorize_stations(df):
 
 if __name__ == '__main__':
     spring_df, autumn_df, winter_df, summer_df = categorize_stations(df)
-
+    print(spring_df)
+    print('-'*120)
+    print(autumn_df)
+    print('-'*120)
+    print(winter_df)
+    print('-'*120)
+    print(summer_df)
+    print('-'*120)
 
