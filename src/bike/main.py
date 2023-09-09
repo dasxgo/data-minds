@@ -92,6 +92,18 @@ def main():
     print(weekly_ride_count.head(13)) 
     print('-'*120)
 
+    # How is the bike rental demand distribuyed over days
+
+    count_per_day = df.groupby(['day'])['count'].sum().reset_index(name='ride count')
+    print(count_per_day.sort_values(ascending=False, by='ride count'))
+    print('-'*120)
+
+    # How is the bike rental demand distributed over hours
+
+    count_by_hour = df.groupby(['hour'])['count'].sum().reset_index(name='ride count')
+    print(count_by_hour.sort_values(ascending=False, by='ride count'))
+    print('-'*120)
+
 if __name__ == '__main__':
     main()
 
