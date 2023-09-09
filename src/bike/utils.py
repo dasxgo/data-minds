@@ -1,8 +1,7 @@
 import pandas as pd
 import numpy as np
-import load
 
-df = load.data
+df = pd.read_csv('/home/dasxgo/dev/data-minds/reports/01-bike.csv')
 
 def categorize_stations(df):
     spring = df[df['season']==0]
@@ -16,8 +15,10 @@ if __name__ == '__main__':
     print(spring_df)
     print('-'*120)
     print(autumn_df)
+    print(f' Maximun autumn count =>',autumn_df['count'].max())
     print('-'*120)
     print(winter_df)
+    print(f'Minimum winter count =>', winter_df['count'].min())
     print('-'*120)
     print(summer_df)
     print('-'*120)
