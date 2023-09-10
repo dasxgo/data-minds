@@ -14,6 +14,7 @@ if __name__ == '__main__':
     print('='*120)
 
 # Datatypes of each columns
+
 data.rename(columns={'cnt': 'count', 't1' : 'c_temp', 't2' : 'f_temp', 'hum' : 'humidity'}, inplace= True)
 
 print(data)
@@ -21,6 +22,7 @@ print(data.dtypes)
 print('-'*120)
 
 # Missing value
+
 print(data.isnull().sum())
 print('-'*120)
 
