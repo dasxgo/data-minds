@@ -45,25 +45,16 @@ def main():
 
     # Season
 
-    spring = df[df['season']==0]
-    autumn = df[df['season']==2]
-    winter = df[df['season']==3]
-    summer = df[df['season']==1]
-
     spring_df, autumn_df, winter_df, summer_df = categorize_stations(df)
 
     # Lowest number of bikes shares in winter
-
-    print(winter[winter['count']==winter['count'].min()])
-    print('-'*120)
+    print(winter_df[winter_df['count']==winter_df['count'].min()])
     print(f'Minimum winter count =>', winter_df['count'].min())
     print('-'*120)
 
     # Highest number of bike share in autumn or fall
-
-    print(autumn[autumn['count']==autumn['count'].max()])
-    print('-'*120)
-    print(f' Maximun autumn count =>',autumn_df['count'].max())
+    print(autumn_df[autumn_df['count']==autumn_df['count'].max()])
+    print(f'Maximun autumn count =>',autumn_df['count'].max())
     print('-'*120)
 
     # How is the bike rental demand distributed over weeks 
