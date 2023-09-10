@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
+import load
 
-df = pd.read_csv('/home/dasxgo/dev/data-minds/reports/01-bike.csv')
+df = load.data
 
 def categorize_stations(df):
     spring = df[df['season']==0]

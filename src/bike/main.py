@@ -5,28 +5,7 @@ import load
 df = load.data
 
 def main():
-    # Remaning some of columns
-    df.rename(columns={'cnt': 'count', 't1' : 'c_temp', 't2' : 'f_temp', 'hum' : 'humidity'}, inplace= True)
-    print(df.columns)
-    print('-'*120)
-
-    # Datatypes of each columns
-    print(df.dtypes)
-    print('-'*120)
-
-    # Missing value
-    print(df.isnull().sum())
-    print('-'*120)
-
-    # Save the DataFrame to a CSV file
-
-    route = '/home/dasxgo/dev/data-minds/reports/01-bike.csv'
-    df.to_csv(route, index=False)  
-    print(f'DataFrame save in {route}')
-    print('-'*120)
-
     # Feature Engineering 4 new columns from timestamp column and also weather_code
-
     df['timestamp'] = pd.to_datetime(df['timestamp'])
 
     df['year'] = df['timestamp'].dt.year
