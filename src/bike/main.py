@@ -86,7 +86,7 @@ def main():
     print(df[['count', 'c_temp', 'f_temp']].corr())
     print('-'*120)
 
-    # Is there a correlation between bike rentals and wind speed, humidity or other 
+    # Is there a correlation between bike rentals and wind speed, humidity or season 
 
     print(df[['count', 'wind_speed', 'humidity', 'season']].corr())
     print('-'*120)
