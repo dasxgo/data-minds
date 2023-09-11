@@ -91,13 +91,6 @@ def main():
     print(df[['count', 'wind_speed', 'humidity', 'season']].corr())
     print('-'*120)
 
-
-
-
-
-
-
-
 if __name__ == '__main__':
     main()
 
