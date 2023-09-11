@@ -91,6 +91,11 @@ def main():
     print(df[['count', 'wind_speed', 'humidity', 'season']].corr())
     print('-'*120)
 
+    # Average Humidity in spring
+
+    avg_humidity = round(spring_df['humidity'].mean(),2)
+    print(f'The average Humidity in the spring is => {avg_humidity}')
+
 if __name__ == '__main__':
     main()
 
