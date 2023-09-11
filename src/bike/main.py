@@ -81,6 +81,23 @@ def main():
     print(count_by_hour.sort_values(ascending=False, by='ride count'))
     print('-'*120)
 
+    # Does the temperature have a a noticiable impact or bike?
+
+    print(df[['count', 'c_temp', 'f_temp']].corr())
+    print('-'*120)
+
+    # Is there a correlation between bike rentals and wind speed, humidity or other 
+
+    print(df[['count', 'wind_speed', 'humidity', 'season']].corr())
+    print('-'*120)
+
+
+
+
+
+
+
+
 if __name__ == '__main__':
     main()
 
