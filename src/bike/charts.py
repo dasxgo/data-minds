@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import load
 
 df = pd.read_csv('/home/dasxgo/dev/data-minds/reports/02-bike.csv')
+print(df.head())
 
 # Are there any specific time periods with higher/lower bike rental counts?
 
