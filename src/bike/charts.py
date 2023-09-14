@@ -20,3 +20,16 @@ if __name__ == '__main__':
     plt.title('Hourly Bike rental counts')
     plt.show()
 
+    # What are the variations in bike rental across different seasons?
+
+    grouped_seasons = df.groupby (['season'])['count'].sum().reset_index(name= 'ride_count')
+    sns.set_style('whitegrid')
+    plt.figure(figsize=(12,6))
+    explode = (0.1, 0.1, 0.1, 0.1)
+    plt.pie(grouped_seasons['ride_count'], labels = ['spring', 'Summer', 'Autumn', 'Winter'], 
+            explode=explode, autopct='%1.1f%%', shadow=True, startangle=90)
+    plt.title('Bike sharing w.r.t Seasons')
+    plt.show()
+
+
+
