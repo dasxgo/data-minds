@@ -97,17 +97,19 @@ def main():
     print(f'The average Humidity in the spring is => {avg_humidity}')
 
     # Save the DataFrame to a CSV file
-
-    print(df)
-    
+ 
     route = '/home/dasxgo/dev/data-minds/reports/02-bike.csv'
     df.to_csv(route, index=False)  
     print(f'DataFrame save in {route}')
     print('-'*120)
 
+    print(df.head())
+    print(df.shape)
     
 if __name__ == '__main__':
     main()
+
+
 
 
 

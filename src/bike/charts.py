@@ -5,6 +5,7 @@ import seaborn as sns
 
 df = pd.read_csv('/home/dasxgo/dev/data-minds/reports/02-bike.csv')
 print(df.head())
+print(df.shape)
 
 # Are there any specific time periods with higher/lower bike rental counts?
 
