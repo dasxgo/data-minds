@@ -20,7 +20,6 @@ if __name__ == '__main__':
     plt.show()
 
     # What are the variations in bike rental across different seasons?
-
     grouped_seasons = df.groupby (['season'])['count'].sum().reset_index(name= 'ride_count')
     sns.set_style('whitegrid')
     plt.figure(figsize=(12,6))
@@ -29,6 +28,16 @@ if __name__ == '__main__':
             explode=explode, autopct='%1.1f%%', shadow=True, startangle=90)
     plt.title('Bike sharing w.r.t Seasons')
     plt.show()
+
+    # How does the rental count change during holidays?
+    holiday_rental = df['is_holiday'].value_counts()
+    plt.figure(figsize=(6,6))
+    explode = (0.1, 0.1)
+    plt.pie(holiday_rental, labels = ['No Holiday', 'Holiday'], 
+            explode=explode, autopct='%1.1f%%', shadow=True, startangle=90)
+    plt.title('Holidays vs Non Holidays')
+    plt.show()
+
 
 
 
