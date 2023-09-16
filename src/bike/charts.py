@@ -38,6 +38,15 @@ if __name__ == '__main__':
     plt.title('Holidays vs Non Holidays')
     plt.show()
 
+    # How does the rental count change during weekends?
+    weekend_rental = df['is_weekend'].value_counts()
+    plt.figure(figsize=(6,6))
+    explode = (0.1, 0.1)
+    plt.pie(weekend_rental, labels = ['Weekdays', 'Weekend'], 
+            explode=explode, autopct='%1.1f%%', shadow=True, startangle=90)
+    plt.title('Weekend vs Weekday')
+    plt.show()
+
 
 
 
