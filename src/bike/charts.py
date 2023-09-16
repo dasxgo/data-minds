@@ -47,6 +47,16 @@ if __name__ == '__main__':
     plt.title('Weekend vs Weekday')
     plt.show()
 
+    # How does the bike rental count vary with different weather conditions
+    rentals_by_weather = df.groupby(['wheather'])['count'].sum().reset_index(name='ride_count')
+    plt.figure(figsize=(14,6))
+    sns.barplot(x='wheather', y='ride_count', data=rentals_by_weather)
+    plt.xlabel('wheather')
+    plt.ylabel('Count of bikes rented')
+    plt.title('Rental count w.r.t weather conditions')
+    plt.xticks(rotation=45)
+    plt.show()s
+
 
 
 
