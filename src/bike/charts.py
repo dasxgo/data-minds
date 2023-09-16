@@ -55,7 +55,7 @@ if __name__ == '__main__':
     plt.ylabel('Count of bikes rented')
     plt.title('Rental count w.r.t weather conditions')
     plt.xticks(rotation=45)
-    plt.show()s
+    plt.show()
 
 
 
