@@ -13,5 +13,5 @@ People in london tend to use the bike sharing system more during the summer mont
 The lowest usage is in Dicember and January. This is likely due to the cold weather in winter months. Moreover the bike sharing 
 system is used more during weekdays than the weekends. This is likely due to the fact that people use the bike sharing system to
 commute to work to school. The bike sharing system is used more during the morning and evening rush hours, which is also likely
-due to the fact that people use the bike sharing system to commute to work to school. Also the peoplein London rent the bike in Clear,
+due to the fact that people use the bike sharing system to commute to work to school. Also the people in London rent the bike in Clear,
 Cloudly and Misty weather. 
