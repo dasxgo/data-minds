@@ -21,3 +21,11 @@ if __name__ == '__main__':
     # Missing values
     print(data.isnull().sum())
     print('-'*120)
+
+    # Delete column
+    df = (data.drop('college', axis=1))
+    print(df)
+    print('-'*120)
+    print(df.dtypes)
+    print('-'*120)
+    print(df.isnull().sum())
