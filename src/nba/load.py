@@ -13,3 +13,11 @@ if __name__ == '__main__':
     print(data.columns)
     print('-'*120)
     print(data['season'].max())
+
+    # Data types for columns
+    print(data.dtypes)
+    print('-'*120)
+
+    # Missing values
+    print(data.isnull().sum())
+    print('-'*120)
