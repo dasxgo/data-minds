@@ -20,5 +20,60 @@ if __name__ == '__main__':
     plt.xticks(rotation=45)
     plt.show()
 
+    michael_jordan = df[df['player_name']== 'Michael Jordan']
+    print(michael_jordan)
+    plt.plot(michael_jordan['season'], michael_jordan['pts'], label='Points')
+    plt.plot(michael_jordan['season'], michael_jordan['reb'], label='Rebounds')
+    plt.plot(michael_jordan['season'], michael_jordan['ast'], label='Assists')
+    plt.xlabel('Season')
+    plt.ylabel('Stats')
+    plt.title(f'Michael Jordan Performance Over Time: Points, Rebounds, and Assists')
+    plt.legend()
+    plt.xticks(rotation=45)
+    plt.show()
+
+    lebron_james = df[df['player_name']== 'LeBron James']
+    print(lebron_james)
+    plt.plot(lebron_james['season'], lebron_james['pts'], label='Points')
+    plt.plot(lebron_james['season'], lebron_james['reb'], label='Rebounds')
+    plt.plot(lebron_james['season'], lebron_james['ast'], label='Assists')
+    plt.xlabel('Season')
+    plt.ylabel('Stats')
+    plt.title(f'LeBron James Performance Over Time: Points, Rebounds, and Assists')
+    plt.legend()
+    plt.xticks(rotation=45)
+    plt.show()
+
+    
+    plt.figure(figsize=(12, 5))
+    plt.subplot(1, 2, 1)  # 1 fila, 2 columnas, primer subgráfico
+    plt.plot(michael_jordan['season'], michael_jordan['pts'], label='Points')
+    plt.plot(michael_jordan['season'], michael_jordan['reb'], label='Rebounds')
+    plt.plot(michael_jordan['season'], michael_jordan['ast'], label='Assists')
+    plt.xlabel('Season')
+    plt.ylabel('Stats')
+    plt.title('Michael Jordan Performance')
+    plt.legend()
+    plt.xticks(rotation=45)
+    plt.subplot(1, 2, 2)  # 1 fila, 2 columnas, segundo subgráfico
+    plt.plot(lebron_james['season'], lebron_james['pts'], label='Points')
+    plt.plot(lebron_james['season'], lebron_james['reb'], label='Rebounds')
+    plt.plot(lebron_james['season'], lebron_james['ast'], label='Assists')
+    plt.xlabel('Season')
+    plt.ylabel('Stats')
+    plt.title('LeBron James Performance')
+    plt.legend()
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+    
+
+
+
+
+
+
+
+
 
 
