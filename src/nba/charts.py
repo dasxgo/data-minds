@@ -8,6 +8,12 @@ import random
 df = load.data1
 
 if __name__ == '__main__':
+    plt.hist(df['age'], bins=20)
+    plt.xlabel('Age')
+    plt.ylabel('Frecuency')
+    plt.title('Distribution of Player Age')
+    plt.show()
+
     random_player = random.choice(df['player_name'])
     player_data = df[df['player_name'] == random_player]
     plt.plot(player_data['season'], player_data['pts'], label='Points')

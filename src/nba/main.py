@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import load
+from utils import top_scorers
 
 df = load.data1
 print('-'*120)
@@ -19,7 +20,9 @@ def main():
     print('-'*120)
     min_weight_player = df[['player_name', 'player_weight', 'country']].min()
     print(f'Lightest player:{min_weight_player}')
-
+    print('-'*120)
+    print(top_scorers)
+    
 if __name__ == '__main__':
     main()
 
