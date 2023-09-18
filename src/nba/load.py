@@ -9,3 +9,7 @@ if __name__ == '__main__':
     print(data.shape)
     print('-'*120)
     print(data.tail())
+    print('-'*120)
+    print(data.columns)
+    print('-'*120)
+    print(data['season'].max())
