@@ -23,9 +23,9 @@ if __name__ == '__main__':
     print('-'*120)
 
 # Delete column
-df = (data.drop('college', axis=1))
-print(df)
+data1 = (data.drop('college', axis=1))
+print(data1)
 print('-'*120)
-print(df.dtypes)
+print(data1.dtypes)
 print('-'*120)
-print(df.isnull().sum())
+print(data1.isnull().sum())
