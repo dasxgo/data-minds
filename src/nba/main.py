@@ -16,6 +16,7 @@ def main():
     print('-'*120)
     max_weight_player = df[['player_name', 'player_weight', 'country']].max()
     print(f'Player with highest weight:{max_weight_player}')
+    print('-'*120)
     min_weight_player = df[['player_name', 'player_weight', 'country']].min()
     print(f'Lightest player:{min_weight_player}')
 
