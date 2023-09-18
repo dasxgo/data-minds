@@ -20,7 +20,7 @@ if __name__ == '__main__':
     plt.xticks(rotation=45)
     plt.show()
 
-    michael_jordan = df[df['player_name']== 'Michael Jordan']
+    michael_jordan = df[df['player_name'] == 'Michael Jordan']
     print(michael_jordan)
     plt.plot(michael_jordan['season'], michael_jordan['pts'], label='Points')
     plt.plot(michael_jordan['season'], michael_jordan['reb'], label='Rebounds')
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     plt.xticks(rotation=45)
     plt.show()
 
-    lebron_james = df[df['player_name']== 'LeBron James']
+    lebron_james = df[df['player_name'] == 'LeBron James']
     print(lebron_james)
     plt.plot(lebron_james['season'], lebron_james['pts'], label='Points')
     plt.plot(lebron_james['season'], lebron_james['reb'], label='Rebounds')
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     plt.xticks(rotation=45)
     plt.show()
 
-    kobe_bryant = df[df['player_name']== 'Kobe Bryant']
+    kobe_bryant = df[df['player_name'] == 'Kobe Bryant']
     print(kobe_bryant)
     plt.plot(kobe_bryant['season'], kobe_bryant['pts'], label='Points')
     plt.plot(kobe_bryant['season'], kobe_bryant['reb'], label='Rebounds')
@@ -57,7 +57,7 @@ if __name__ == '__main__':
     plt.show()
   
     plt.figure(figsize=(12, 5))
-    plt.subplot(1, 2, 1)  # 1 fila, 2 columnas, primer subgráfico
+    plt.subplot(1, 2, 1)  # 1 row, 2 columns, first subchart
     plt.plot(michael_jordan['season'], michael_jordan['pts'], label='Points')
     plt.plot(michael_jordan['season'], michael_jordan['reb'], label='Rebounds')
     plt.plot(michael_jordan['season'], michael_jordan['ast'], label='Assists')
@@ -66,7 +66,7 @@ if __name__ == '__main__':
     plt.title('Michael Jordan Performance')
     plt.legend()
     plt.xticks(rotation=45)
-    plt.subplot(1, 2, 2)  # 1 fila, 2 columnas, segundo subgráfico
+    plt.subplot(1, 2, 2)  # 1 row, 2 columns, second subchart
     plt.plot(lebron_james['season'], lebron_james['pts'], label='Points')
     plt.plot(lebron_james['season'], lebron_james['reb'], label='Rebounds')
     plt.plot(lebron_james['season'], lebron_james['ast'], label='Assists')
