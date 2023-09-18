@@ -44,7 +44,18 @@ if __name__ == '__main__':
     plt.xticks(rotation=45)
     plt.show()
 
-    
+    kobe_bryant = df[df['player_name']== 'Kobe Bryant']
+    print(kobe_bryant)
+    plt.plot(kobe_bryant['season'], kobe_bryant['pts'], label='Points')
+    plt.plot(kobe_bryant['season'], kobe_bryant['reb'], label='Rebounds')
+    plt.plot(kobe_bryant['season'], kobe_bryant['ast'], label='Assists')
+    plt.xlabel('Season')
+    plt.ylabel('Stats')
+    plt.title(f'Kobe Bryant Performance Over Time: Points, Rebounds, and Assists')
+    plt.legend()
+    plt.xticks(rotation=45)
+    plt.show()
+  
     plt.figure(figsize=(12, 5))
     plt.subplot(1, 2, 1)  # 1 fila, 2 columnas, primer subgráfico
     plt.plot(michael_jordan['season'], michael_jordan['pts'], label='Points')
