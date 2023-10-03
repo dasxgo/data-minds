@@ -7,7 +7,6 @@
 - Premier league
 - Bike london 
 - Nba
-- Sofware industry salary prediction
 
 ## **Tools**
 
