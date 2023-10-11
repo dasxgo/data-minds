@@ -3,7 +3,7 @@ Exploratory data analysis and machine learning proyects
 
 ## Code
 
-You cand find the code for this project here.
+You can find the code for this project here.
 
 folders overview:
 
