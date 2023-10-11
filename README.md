@@ -17,7 +17,7 @@ folders overview:
 - Bike london 
 - Nba
 
-## **Local Setup***
+## Local Setup
 
 ### **Instalation**
 
