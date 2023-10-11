@@ -1,6 +1,14 @@
 # Overview
 Exploratory data analysis and machine learning proyects 
 
+## TTable of contents
+
+- Hotel business 
+- Premier league
+- Bike london 
+- Nba
+
+
 ## Code
 
 You can find the code for this project here.
@@ -9,13 +17,6 @@ folders overview:
 
 ` src`
 `notebooks`
-
-## Contents
-
-- Hotel business 
-- Premier league
-- Bike london 
-- Nba
 
 ## Local Setup
 
@@ -32,10 +33,10 @@ The follow this project, please install the following locally:
   - seaborn 
   - scikit learn
 
-## For Install
+## Clone this repositor
 
-- `clone this repository: git clone git@github.com:dasxgo/data-minds.git`
-- `pip install -r requirements.txt`
+`git clone git@github.com:dasxgo/data-minds.git`
+`pip install -r requirements.txt`
 
 ## **Data**
 
