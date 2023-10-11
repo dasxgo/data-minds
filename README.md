@@ -7,8 +7,8 @@ You cand find the code for this project here.
 
 folders overview:
 
--` src`
-- `notebooks`
+` src`
+`notebooks`
 
 ## **Contents**
 
