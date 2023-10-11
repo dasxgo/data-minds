@@ -1,7 +1,7 @@
-# **Overview**
+# Overview
 Exploratory data analysis and machine learning proyects 
 
-# **Code**
+## Code
 
 You cand find the code for this project here.
 
@@ -10,7 +10,7 @@ folders overview:
 ` src`
 `notebooks`
 
-## **Contents**
+## *Contents
 
 - Hotel business 
 - Premier league
@@ -19,7 +19,7 @@ folders overview:
 
 ## Local Setup
 
-### **Instalation**
+### Instalation
 
 The follow this project, please install the following locally:
 
