@@ -10,7 +10,7 @@ folders overview:
 ` src`
 `notebooks`
 
-## *Contents
+## Contents
 
 - Hotel business 
 - Premier league
