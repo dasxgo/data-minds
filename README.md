@@ -1,7 +1,7 @@
 # Overview
 Exploratory data analysis and machine learning proyects 
 
-## Table of contents
+## Table of Contents
 
 - Hotel business 
 - Premier league
