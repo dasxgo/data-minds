@@ -33,7 +33,7 @@ The follow this project, please install the following locally:
   - seaborn 
   - scikit learn
 
-## Clone this repositor
+## Clone this Repositor
 
 `git clone git@github.com:dasxgo/data-minds.git`
 `pip install -r requirements.txt`
