@@ -1,5 +1,5 @@
 # Overview
-Exploratory data analysis and machine learning proyects 
+This repository contains code and notebooks of exploratory data analysis and machine learning proyects 
 
 ## Table of Contents
 
