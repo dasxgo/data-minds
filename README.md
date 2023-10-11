@@ -1,5 +1,5 @@
 # **Overview**
- Projects of exploratory data analysis and machine learning proyects 
+Exploratory data analysis and machine learning proyects 
 
 # **Code**
 
