@@ -19,6 +19,10 @@ folders overview:
 
 ## **Local Setup***
 
+### **Instalation**
+
+The follow this project, please install the following locally:
+
 - Python
 - Jupyter
 - Python packages
@@ -28,10 +32,14 @@ folders overview:
   - seaborn 
   - scikit learn
 
-## **Install**
+## ** For Install**
 
 - `clone this repository: git clone git@github.com:dasxgo/data-minds.git`
 - `pip install -r requirements.txt`
+
+## **Data**
+
+We'll download all of the data the project, using dattaset of kaggle.
 
 # **License**
 MIT
