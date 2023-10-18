@@ -1,7 +1,7 @@
 # Overview
 This repository contains code and notebooks of exploratory data analysis and machine learning proyects 
 
-## Table of Contents
+## Index
 
 - Hotel business 
 - Premier league
